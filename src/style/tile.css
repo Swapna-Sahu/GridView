@@ -1,0 +1,52 @@
+
+.tiles {
+    display: flex;
+    gap: 2rem;
+    margin: 3rem;
+  }
+  
+  .tiles > div {
+    width: 100%;
+    align-items: center;
+    padding: 0.05rem;
+    text-align: left;
+    margin: 1rem;
+  }
+  
+  .tiles img {
+    width: 220px;
+    height: 200px;
+    margin-right: 1rem;
+  }
+  .tile-details {
+    display: grid;
+    gap: 0.5rem;
+    text-align: center !important;
+    margin: 1rem;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px rgb(141, 139, 139);
+  }
+  .tile-details img {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .pagination {
+    position:absolute;
+    bottom: 10%;
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #47ccde ;
+    border-color: #47ccde ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid #47ccde ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }  
