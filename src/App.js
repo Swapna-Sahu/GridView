@@ -1,5 +1,5 @@
 import './App.css';
-import TileBuilder from './js/tileBuilder';
+import TileBuilder from './components/tileBuilder';
 
 function App() {
   return (
