@@ -76,7 +76,7 @@ const TileBuilder = () => {
                 value={searchTile}
                 placeholder='Search Tile'
             />
-            <button onClick={submit}>Submit</button>
+            <button className='btn' onClick={submit}>Submit</button>
             <AddTile addNewTile={addNewTile}/>
             <div className='tiles'>
                 {gridTiles.length === 0 ?

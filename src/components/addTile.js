@@ -37,7 +37,7 @@ const AddTile = ({ addNewTile }) => {
                     onChange={e => setImagePath(e.target.value)}
                 />
                 </label>
-                <input type="submit" value="Add New Tile" />
+                <input className='btn' type="submit" value="Add New Tile" />
             </form>
         </>
     );

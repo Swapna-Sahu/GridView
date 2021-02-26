@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #0aa2b6;
 }
 
 .App-header {
@@ -16,7 +17,13 @@
   display: flex;
   gap: 2rem;
   margin-left: 10rem;
+  font-weight: 400;
 }
 .form-style input {
   margin:10px;
+}
+.btn {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  color: #fff;
 }
