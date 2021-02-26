@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-const AddTile = ({ addNewTile }) => {
+const AddTile = ({ addNewTile}) => {
     const [imagePath, setImagePath] = useState('');
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
 
     const handleSubmit = (e) => { 
-        addNewTile({ title:title, description: description, imagePath: imagePath })
+        addNewTile( { title:title, description: description, imagePath: imagePath })
         e.preventDefault();
     };
 

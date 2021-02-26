@@ -11,12 +11,13 @@ const TileBuilder = () => {
     const [data, setData] = useState(true);
     const [offset, setOffset] = useState(0);
     const [perPage] = useState(2);
-    const [pageCount, setPageCount] = useState(0)
+    const [pageCount, setPageCount] = useState(0);
+
 
     //adding new tile to tiles
     const addNewTile = (tile) => {
         let updatedTiles = [...gridTiles, tile];
-        console.log(updatedTiles);
+        tiles.push(tile);
         setGridTiles(updatedTiles);
     }
 
@@ -26,14 +27,16 @@ const TileBuilder = () => {
             setGridTiles(slice);
             setPageCount(Math.ceil(tiles.length / perPage));
         }
+
     }, [offset]);
     
     const searchedTile = (searchTile) => {
         searchTile = searchTile.charAt(0).toUpperCase() + searchTile.slice(1);
-        const fetchTile = gridTiles.filter(function(a) {
-            return  a.title.includes(searchTile);
+        const fetchTile = gridTiles.filter(function (a) {
+            let lowerTile = a.title.toLowerCase();
+            return lowerTile.includes(searchTile.toLowerCase());
         });
-
+        
         // Slicing the data for pagination
         const slice = fetchTile.slice(offset, offset + perPage);
         setPageCount(Math.ceil(fetchTile.length / perPage));
@@ -41,6 +44,7 @@ const TileBuilder = () => {
 
         // Single data display
         setTileDetails(fetchTile[0]);
+
         setData(false);
     }
 

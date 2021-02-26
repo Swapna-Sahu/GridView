@@ -42,6 +42,12 @@ let tiles = [
             'https://images.unsplash.com/photo-1581300740943-cfa5f847db2c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzJ8fG5lb258ZW58MHx8MHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60'
     },
     {
+        title: 'Ready or not',
+        description: 'Ready or not',
+        imagePath:
+            'https://images.unsplash.com/photo-1581300740943-cfa5f847db2c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzJ8fG5lb258ZW58MHx8MHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60'
+    },
+    {
         title: 'Pizza',
         description: 'Pizza',
         imagePath:
@@ -64,60 +70,6 @@ let tiles = [
         description: 'Make beer, not war',
         imagePath:
             'https://images.unsplash.com/photo-1577032229840-33197764440d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTc5fHxuZW9ufGVufDB8fDB8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60'
-    },
-    {
-        title: "You're doing great",
-        description: "You're doing great",
-        imagePath:
-            'https://images.unsplash.com/photo-1572633424705-d813d2fb5cb4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2811&amp;q=80'
-    },
-    {
-        title: 'Ready or not',
-        description: 'Ready or not',
-        imagePath:
-            'https://images.unsplash.com/photo-1581300740943-cfa5f847db2c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80'
-    },
-    {
-        title: 'Steak &amp; wine',
-        description: 'Steak &amp; wine',
-        imagePath:
-            'https://images.unsplash.com/photo-1545464333-9cbd1f263aa0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80'
-    },
-    {
-        title: 'We belong here',
-        description: 'We belong here',
-        imagePath:
-            'https://images.unsplash.com/photo-1587183233478-0acdba5b184a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80'
-    },
-    {
-        title: 'Burger',
-        description: 'Burger',
-        imagePath:
-            'https://images.unsplash.com/photo-1563191799-2c7e8c185bb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80'
-    },
-    {
-        title: 'Yeah',
-        description: 'Yeah',
-        imagePath:
-            'https://images.unsplash.com/photo-1606595885348-ba270cb254d1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80'
-    },
-    {
-        title: 'Avengers',
-        description: 'Avengers',
-        imagePath:
-            'https://images.unsplash.com/photo-1560932684-5e552e2894e9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjc1fHxuZW9ufGVufDB8fDB8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60'
-    },
-    {
-        title: 'Yes',
-        description: 'Yes',
-        imagePath:
-            'https://images.unsplash.com/photo-1584844308364-9e43f2cfaa6c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1650&amp;q=80'
-    },
-    {
-        title: 'We believe',
-        description: 'We believe',
-        imagePath:
-            'https://images.unsplash.com/photo-1582478192200-b4bd08b40096?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=1790&amp;q=80'
     }
 ];
   
