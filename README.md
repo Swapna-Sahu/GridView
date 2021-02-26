@@ -20,9 +20,9 @@ ReactJs , React Hook, Javascript, CSS
 
 ## About project
 You can find :
-Search bar
-Add form
-Two tiles to display (this is for : when u get two tiles after you search then also u can see pagination )
+Search bar, 
+Add form, 
+Two tiles to display (this is for : when u get two tiles after you search then also u can see pagination ), 
 Paginations at the bottom
 
 ## Please feel free to give feedback to imporve and delivery better quality test assignment . Thanks . 
