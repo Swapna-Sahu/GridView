@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 
 const AddTile = ({ addNewTile }) => {
-    const [imgUrl, setImgUrl] = useState();
+    const [imagePath, setImagePath] = useState();
     const [title, setTitle] = useState();
     const [description, setDescription] = useState();
 
     const handleSubmit = (e) => { 
-        addNewTile([title, description, imgUrl])
+        addNewTile([title, description, imagePath])
         e.preventDefault();
     };
 
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className='form-style'>
                 <label>
                 Title:
                 <input type='text'
@@ -32,9 +32,9 @@ const AddTile = ({ addNewTile }) => {
                 <label>
                 Image link:
                 <input type='text'
-                    name='imgUrl'
-                    value={imgUrl}
-                    onChange={e => setImgUrl(e.target.value)}
+                    name='imagePath'
+                    value={imagePath}
+                    onChange={e => setImagePath(e.target.value)}
                 />
                 </label>
                 <input type="submit" value="Add" />

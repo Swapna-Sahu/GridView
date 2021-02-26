@@ -12,6 +12,8 @@ const TileBuilder = () => {
     const [offset, setOffset] = useState(0);
     const [perPage] = useState(2);
     const [pageCount, setPageCount] = useState(0)
+
+    //adding new tile to tiles
     const addNewTile = (tile) => {
         let updatedTiles = [...gridTiles, tile];
         setGriTiles(updatedTiles);
@@ -67,7 +69,6 @@ const TileBuilder = () => {
 
     return (
         <>
-            <AddTile addNewTile={addNewTile}/>
             <input type='text'
                 onChange={changeTile}
                 onKeyDown={enterKey}
@@ -75,6 +76,7 @@ const TileBuilder = () => {
                 placeholder='Search Tile'
             />
             <button onClick={submit}>Submit</button>
+            <AddTile addNewTile={addNewTile}/>
             <div className='tiles'>
                 {gridTiles.length === 0 ?
                     <>
